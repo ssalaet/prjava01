@@ -8,6 +8,7 @@ import java.io.*;
 public class Prjava01 {
    /**
     * @param args the command line arguments
+    * Changes are not commited
     */
    public static void main(String[] args) throws IOException {
        File f = new File("fitxer.html");
@@ -20,7 +21,7 @@ public class Prjava01 {
            bw.write("  </head>");bw.newLine();
            bw.write("  <body>");bw.newLine();
            bw.write("    <h1>DAW2 m08uf4pr2</h1>");bw.newLine();
-           bw.write("    Nova p&agrave;gina web del projecte");bw.newLine();
+           bw.write("    Nova p&agrave;gina web del projecte. Versió 0.3");bw.newLine();
            bw.write("  </body>");bw.newLine();
            bw.write("</html>");bw.newLine();
            bw.close();
